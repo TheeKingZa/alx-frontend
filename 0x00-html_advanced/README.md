@@ -6,6 +6,23 @@
 For this project, we expect you to look at this concept:
 
 * [HTML - `elements` of a web page](#html---elements-of-a-web-page)
+* [Doctype](#doctype)
+* [HTML tag](#html-tag)
+* [Head tag](#head-tag)
+* [Meta Charset](#meta-charset)
+* [Viewport](#viewport)
+* [Title](#title)
+* [Meta description](#meta-description)
+* [Favicons](#favicons)
+* [Tag attributes](#tag-attributes)
+* [Header Tag](#header-tag)
+* [Main Tag](#main-tag)
+* [Footer Tag](#footer-tag)
+* [Aside Tag](#aside-tag)
+* [Section Tag](#section-tag)
+* [Article tag](#article-tag)
+* [Nav Tag](#nav-tag)
+* [Headings](#headings)
 
 
 
@@ -345,13 +362,14 @@ Accessibility tip: Headings are used by voice browser to help navigate through t
 
 ```
 Tip: Never put the logo or name of your website inside an <h1>. The text inside this tag has to reflect the content of your page. On a homepage, based on the design, you can eventually hide visually your <h1> but it still has to exist in your code.
+```
 
 Resources
 
 * [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements)
 
 # `p` tag
-A <p> HTML tag defines a paragraph of text.
+A `paragraph` HTML tag defines a paragraph of text.
 
 Type	Self-closing
 Block	No
