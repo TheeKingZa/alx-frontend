@@ -71,13 +71,14 @@ Resources
 
 # Meta charset
 The meta charset declares the page’s character encoding.
-
+```
 ...
 <head>
     <!-- Set character encoding for the document -->
     <meta charset="value">
 </head>
 ...
+```
 
 Resources
 * [meta: The Document-level Metadata element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset)
