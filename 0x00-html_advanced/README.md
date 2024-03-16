@@ -56,7 +56,11 @@ The <doctype> is necessary at the top of every HTML page to force the browser to
 Resources
 * [Doctype - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
 * [HEAD - A free guide to head elements](https://htmlhead.dev/)
+---
 
+[`^`](#need-to-know)
+
+---
 # HTML tag
 The <html> HTML tag tells the browser that the document is an HTML webpage. It is used as a container for all the HTML elements.
 
@@ -68,7 +72,11 @@ The doctype is the only element living outside the html tag.
 Language and reading direction
 * [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/?ref=frontendchecklist)
 
+---
 
+[`^`](#need-to-know)
+
+---
 # head tag
 The head tag element contains all the metadatas related to your page. All the elements put in the head are not visible in the window of the browser.
 
@@ -85,7 +93,11 @@ You can find inside the `head`:
 
 Resources
 * [HEAD - A free guide to head elements](https://htmlhead.dev/)
+---
 
+[`^`](#need-to-know)
+
+---
 # Meta charset
 The meta charset declares the page’s character encoding.
 ```
@@ -121,7 +133,11 @@ Accessibility tip: Never use maximum-scale=1.0. [It prevents the user from zoomi
 
 Resources
 * [Responsive Design With Viewport Control](https://bitsofco.de/responsive-design-viewport/)
+---
 
+[`^`](#need-to-know)
+
+---
 # Title
 The title meta tag defines the title of the web page.
 
@@ -152,7 +168,11 @@ Resources
 ```
 Resources
 * [The ideal length of a meta description • Yoast](https://yoast.com/meta-descriptions/)
+---
 
+[`^`](#need-to-know)
+
+---
 # Favicons
 
 ```
@@ -184,7 +204,11 @@ It is possible to declare any attribute using the data- prefix
 
 Resources
 * [HTML attribute reference - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+---
 
+[`^`](#need-to-know)
+
+---
 # header tag
 The <header> HTML tag element is used to identify the top of a webpage, article, section, or other segment of a page. The header is normally always the same across all pages of your website.
 
@@ -206,7 +230,11 @@ NOTE: Don’t confuse header with the head element of the page.
 
 Resources
 * [header - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+---
 
+[`^`](#need-to-know)
+
+---
 # main tag
 The <main> HTML tag is a structural element located generally between the <header> and the <footer> and contains the content of your web page.
 
@@ -244,7 +272,11 @@ Usage
 
 Resources
 * [footer - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+---
 
+[`^`](#need-to-know)
+
+---
 # aside tag
 The <aside> HTML tag contains additional information related to the main content.
 
@@ -292,7 +324,11 @@ Usage
 
 Resources
 * [section: The Generic Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+---
 
+[`^`](#need-to-know)
+
+---
 # article tag
 An <article> HTML tag represent a self-contained piece of content which could theoretically be distributed to other websites and platforms as a stand-alone unit.
 
@@ -366,7 +402,11 @@ Tip: Never put the logo or name of your website inside an heading1. The text ins
 
 Resources
 * [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements)
+---
 
+[`^`](#need-to-know)
+
+---
 # `p` tag
 A `paragraph` HTML tag defines a paragraph of text.
 
@@ -394,7 +434,11 @@ A span is a generic inline of content used usually for text that are not inside 
 ```
 Type	Self-closing
 Inline	No
+---
 
+[`^`](#need-to-know)
+
+---
 # `div`
 A `div` (stands for “document division”) is a generic block of content used to structure elements in your layout.
 
@@ -414,7 +458,11 @@ Comments allow you to add some information visible for the developer but not for
 
 Resources
 * [About conditional comments (Internet Explorer) | Microsoft Docs](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85)?redirectedfrom=MSDN)
+---
 
+[`^`](#need-to-know)
+
+---
 # `a` tag
 Links are inline elements which allow you to navigate from one page / document to another.
 
@@ -439,7 +487,11 @@ Resources
 * [`a`: The `Anchor` element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 * [About `rel=noopener`](https://mathiasbynens.github.io/rel-noopener/)
 * [`Mailto Links` | `CSS-Tricks`](https://css-tricks.com/snippets/html/mailto-links/)
+---
 
+[`^`](#need-to-know)
+
+---
 # Future changes in the link attribution (rel)
 
 ```
@@ -462,7 +514,11 @@ Resources
 Resources
 * [Official Google Webmaster Central Blog: Evolving “nofollow” – new ways to identify the nature of links](https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify)
 * [How Google’s Nofollow, Sponsored, & UGC Links Impact SEO - Moz](https://moz.com/blog/nofollow-sponsored-ugc)
+---
 
+[`^`](#need-to-know)
+
+---
 # Lists
 Lists are used for listing ingredients in a recipe, a series of social icons, etc..
 
@@ -474,7 +530,11 @@ Resources
 * [`li - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
 * [`ol: The Ordered List element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 * [`dl: The Description List element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+---
 
+[`^`](#need-to-know)
+
+---
 # Ordered list (ol)
 An ordered list is rendered as a numbered list.
 ```
@@ -491,7 +551,11 @@ An ordered list is rendered as a numbered list.
   <li>List item 3</li>
 </ol>
 ```
+---
 
+[`^`](#need-to-know)
+
+---
 # Unordered list (ul)
 An unordered list is rendered as an unordered list of items.
 
@@ -516,7 +580,11 @@ An unordered list is rendered as an unordered list of items.
   <li>Third bullet point</li>
 </ul>
 ```
+---
 
+[`^`](#need-to-know)
+
+---
 # Definition list
 A definition list is used to list terms and corresponding definitions.
 
@@ -528,7 +596,11 @@ A definition list is used to list terms and corresponding definitions.
   <dd>Another definition of the term</dd>
 </dl>
 ```
+---
 
+[`^`](#need-to-know)
+
+---
 # Horizontal rules
 An `hr` is a semantic break that separates different blocks of text.
 
@@ -544,7 +616,11 @@ Yes
 
 Resources
 * [hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+---
 
+[`^`](#need-to-know)
+
+---
 # Line Breaks
 Line breaks are used to break the text to multiple lines.
 
@@ -563,7 +639,11 @@ nulla vitae mollis</p>
 
 Resources
 * [br: The Line Break element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+---
 
+[`^`](#need-to-know)
+
+---
 # Inline quotation
 Inline quotes is used for inline text that doesn’t require paragraph breaks.
 
@@ -576,7 +656,11 @@ Inline quotes is used for inline text that doesn’t require paragraph breaks.
 
 Resources
 * [q: The Inline Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
+---
 
+[`^`](#need-to-know)
+
+---
 
 # Blockquote
 A multiline quote is called a blockquote.
@@ -610,7 +694,11 @@ Block	No
 ```
 Resources
 * [`blockquote`: The Block Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+---
 
+[`^`](#need-to-know)
+
+---
 # Text/Typography
 
 A long list of HTML tags are used to give semantic meaning to specific text. Each tag is essential to help users and browsers understand the specificity of a certain portion of text. It’s crucial to understand which can be used in which situation.
@@ -635,9 +723,9 @@ A long list of HTML tags are used to give semantic meaning to specific text. Eac
 ```
 
 Warning!
-
+```
 Some tags like <strong> and <b> may look the same visually in your browser. Please remember that HTML is about content, semantics, and not the visual aspect.
-
+```
 ```
 <ul>
   <li>
@@ -724,11 +812,17 @@ Resources
 * [`time` - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 * [`address`: The Contact Address element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)
 
-# Tables
+---
 
+[`^`](#need-to-know)
+
+---
+# Tables
+```
 A table element is used to wrap tabular content. It uses rows and columns to organize the data.
 
 Accessibility tip: Always use <caption> to help people understand the content of your table.
+```
 
 # Anatomy of a table
 * `caption`: the title of a table.
@@ -800,6 +894,11 @@ Resources
 * [tr: The Table Row element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
 * [td: The Table Data Cell element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # details tag
 
 The `details` HTML element gives a native way to create something similar to an accordion.
@@ -817,9 +916,15 @@ Resources
 * [summary: The Disclosure Summary element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)
 * [Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion | CSS-Tricks](https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion/)
 
-# Image
-The image element (<img>) allows us to use images on a website.
+---
 
+[`^`](#need-to-know)
+
+---
+# Image
+```
+The image element (<img>) allows us to use images on a website.
+```
 Type	Self-closing
 Inline	Yes
 
@@ -841,6 +946,11 @@ Resources
 * [img: The Image Embed element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 * [Essential Image](https://www.w3schools.com/html/html_images.asp)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # Placeholder generators
 
 * [https://placebear.com/](https://placebear.com/)
@@ -848,6 +958,11 @@ Resources
 * [http://placehold.it/](http://placehold.it/)
 * [https://www.placecage.com/](https://www.placecage.com/)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # Image formats
 
 ```
@@ -862,10 +977,16 @@ JPEG, PNG, GIF, SVG and WebP are the most common format of image used on the Web
 ```
 Warning! It’s not unusual to find websites that load images with more than 1 MB. It’s obviously not recommended. Nowadays, people browse the web more using a wireless connection and then could be limited in their data package. It’s important to always keep that in mind.
 ```
+---
 
+[`^`](#need-to-know)
+
+---
 # Picture
 
+```
 The <picture> HTML tag is used as a wrapper to combine different sources which provide different versions of an image. (It can also be use to offer different versions for different devices/display.)
+```
 
 ```
 <picture>
@@ -879,14 +1000,22 @@ Resources
 * [picture: The Picture element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 * [Bye raster, hello vector: 3 ways to use SVG easier · Devbridge](https://www.cognizant.com/us/en/services/software-engineering-services)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # video tag
 
+```
 The <video> HTML Tag gives the capability to add a native video player in your HTML.
 
-Accessibility tip: It’s essential to provide an alternative text in case the <video> tag is not supported or the video doesn’t exist anymore.
+Accessibility tip: It’s essential to provide an alternative text in case 
+the <video> tag is not supported or the video doesn’t exist anymore.
 
-Avoid using the attribute autoplay and let the user decide if they want to play the video. Of course, for videos used in the background, autoplay and loop will probably be essential.
-
+Avoid using the attribute autoplay and let the user decide if they want to play the video. 
+Of course, for videos used in the background, autoplay and loop will probably be essential.
+```
 ```
 <video width="640" height="480" src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" controls>
   Sorry, your browser doesn't support HTML5 <code>video</code>, but you can
@@ -899,6 +1028,11 @@ Resources
 * [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/Media/Formats)
 * [Can I use… video](https://caniuse.com/?search=video)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # audio tag
 
 The audio HTML Tag gives the capability to embed sound content in your HTML.
@@ -915,6 +1049,11 @@ Resources
 * [audio: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 * [Can I use… audio](https://caniuse.com/?search=audio)
 
+---
+
+[`^`](#need-to-know)
+
+---
 # iframe tag
 
 An iframe embed an external browsing content in your current HTML page.
@@ -938,3 +1077,10 @@ Tip: Use iFrames with parcimony as they can add extra weight to your webpage.
 Resources
 * [iframe: The Inline Frame element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
 * [3 Reasons You Should Never Use Iframes](https://ostraining.com/blog/webdesign/against-using-iframes/)
+
+
+---
+
+[`^`](#need-to-know)
+
+---
