@@ -802,7 +802,8 @@ Resources
 
 # details tag
 
-<details> The `details` HTML element gives a native way to create something similar to an accordion.
+The `details` HTML element gives a native way to create something similar to an accordion.
+<details> 
 ```
 <details>
   <summary>Details</summary>
