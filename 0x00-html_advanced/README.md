@@ -361,10 +361,10 @@ Accessibility tip: Headings are used by voice browser to help navigate through t
 ...
 
 ```
-Tip: Never put the logo or name of your website inside an <h1>. The text inside this tag has to reflect the content of your page. On a homepage, based on the design, you can eventually hide visually your <h1> but it still has to exist in your code.
+
+Tip: Never put the logo or name of your website inside an heading1. The text inside this tag has to reflect the content of your page. On a homepage, based on the design, you can eventually hide visually your heading1 but it still has to exist in your code.
 
 Resources
-
 * [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements)
 
 # `p` tag
