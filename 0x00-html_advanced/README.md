@@ -634,7 +634,7 @@ A long list of HTML tags are used to give semantic meaning to specific text. Eac
 * <address> to indicate contact information (person, people or organization).
 ```
 
-<p font-color="red">Warning!</p>
+<p style="color: red;">Warning!</p>
 
 Some tags like <strong> and <b> may look the same visually in your browser. Please remember that HTML is about content, semantics, and not the visual aspect.
 
