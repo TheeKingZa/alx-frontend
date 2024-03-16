@@ -4,6 +4,8 @@
 
 # Concepts
 For this project, we expect you to look at this concept:
+<details>
+---
 
 * [HTML - `elements` of a web page](#html---elements-of-a-web-page)
 * [Doctype](#doctype)
@@ -23,10 +25,32 @@ For this project, we expect you to look at this concept:
 * [Article tag](#article-tag)
 * [Nav Tag](#nav-tag)
 * [Headings](#headings)
-
-
+* [Paragraph Tag](#p-tag)
+* [Span](#span)
+* [Div](#div)
+* [A Tag](#a-tag)
+* [Lists](#lists)
+    * [Ordered list](#ordered-list-ol)
+    * [Unordered list](#unordered-list-ul)
+    * [Definition list](#definition-list)
+* [Horizontal Rules](#horizontal-rules)
+    * [Line Breaks](#line-breaks)
+* [`Quote`]
+    * [Inline quotation](#inline-quotation)
+    * [Blockquote](#blockquote)
+* [Text/Typography](#texttypography)
+* [Tables](#tables)
+* [details](#details-tag)
+* [Image Tag](#image)
+    * [Image formats](#image-formats)
+    * [Picture](#picture)
+* [Video Tag](#video-tag)
+* [Audio Tag](#audio-tag)
+* [iFrame Tag](#iframe-tag)
 
 ---
+</details>
+
 # NEED TO KNOW?
 
 * [HTML 5.2](https://html.spec.whatwg.org/multipage/)
@@ -58,7 +82,7 @@ Resources
 * [HEAD - A free guide to head elements](https://htmlhead.dev/)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # HTML tag
@@ -74,7 +98,7 @@ Language and reading direction
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # head tag
@@ -95,7 +119,7 @@ Resources
 * [HEAD - A free guide to head elements](https://htmlhead.dev/)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Meta charset
@@ -135,7 +159,7 @@ Resources
 * [Responsive Design With Viewport Control](https://bitsofco.de/responsive-design-viewport/)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Title
@@ -170,7 +194,7 @@ Resources
 * [The ideal length of a meta description • Yoast](https://yoast.com/meta-descriptions/)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Favicons
@@ -206,7 +230,7 @@ Resources
 * [HTML attribute reference - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # header tag
@@ -232,7 +256,7 @@ Resources
 * [header - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # main tag
@@ -274,7 +298,7 @@ Resources
 * [footer - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # aside tag
@@ -326,7 +350,7 @@ Resources
 * [section: The Generic Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # article tag
@@ -404,7 +428,7 @@ Resources
 * [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # `p` tag
@@ -436,7 +460,7 @@ Type	Self-closing
 Inline	No
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # `div`
@@ -460,7 +484,7 @@ Resources
 * [About conditional comments (Internet Explorer) | Microsoft Docs](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85)?redirectedfrom=MSDN)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # `a` tag
@@ -489,7 +513,7 @@ Resources
 * [`Mailto Links` | `CSS-Tricks`](https://css-tricks.com/snippets/html/mailto-links/)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Future changes in the link attribution (rel)
@@ -516,7 +540,7 @@ Resources
 * [How Google’s Nofollow, Sponsored, & UGC Links Impact SEO - Moz](https://moz.com/blog/nofollow-sponsored-ugc)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Lists
@@ -532,7 +556,7 @@ Resources
 * [`dl: The Description List element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Ordered list (ol)
@@ -553,7 +577,7 @@ An ordered list is rendered as a numbered list.
 ```
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Unordered list (ul)
@@ -582,7 +606,7 @@ An unordered list is rendered as an unordered list of items.
 ```
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Definition list
@@ -598,7 +622,7 @@ A definition list is used to list terms and corresponding definitions.
 ```
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Horizontal rules
@@ -618,7 +642,7 @@ Resources
 * [hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Line Breaks
@@ -641,7 +665,7 @@ Resources
 * [br: The Line Break element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Inline quotation
@@ -658,7 +682,7 @@ Resources
 * [q: The Inline Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 
@@ -696,7 +720,7 @@ Resources
 * [`blockquote`: The Block Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Text/Typography
@@ -814,7 +838,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Tables
@@ -896,7 +920,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # details tag
@@ -918,7 +942,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Image
@@ -948,7 +972,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Placeholder generators
@@ -960,7 +984,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Image formats
@@ -979,7 +1003,7 @@ Warning! It’s not unusual to find websites that load images with more than 1 M
 ```
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # Picture
@@ -1002,7 +1026,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # video tag
@@ -1030,7 +1054,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # audio tag
@@ -1051,7 +1075,7 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
 # iframe tag
@@ -1081,6 +1105,6 @@ Resources
 
 ---
 
-[`^`](#need-to-know)
+[`^`](#concepts)
 
 ---
