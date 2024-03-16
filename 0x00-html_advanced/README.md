@@ -35,7 +35,7 @@ For this project, we expect you to look at this concept:
     * [Definition list](#definition-list)
 * [Horizontal Rules](#horizontal-rules)
     * [Line Breaks](#line-breaks)
-* [`Quote`]
+* `Quote`
     * [Inline quotation](#inline-quotation)
     * [Blockquote](#blockquote)
 * [Text/Typography](#texttypography)
