@@ -634,7 +634,7 @@ A long list of HTML tags are used to give semantic meaning to specific text. Eac
 * <address> to indicate contact information (person, people or organization).
 ```
 
-<p style="color: red;">Warning!</p>
+Warning!
 
 Some tags like <strong> and <b> may look the same visually in your browser. Please remember that HTML is about content, semantics, and not the visual aspect.
 
@@ -802,13 +802,14 @@ Resources
 
 # details tag
 
-The <details> HTML element gives a native way to create something similar to an accordion.
+<details> The `details` HTML element gives a native way to create something similar to an accordion.
 ```
 <details>
   <summary>Details</summary>
   Something small enough to escape casual notice.
 </details>
 ```
+</details>
 
 Resources
 * [details: The Details disclosure element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
