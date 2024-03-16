@@ -615,6 +615,7 @@ Resources
 
 A long list of HTML tags are used to give semantic meaning to specific text. Each tag is essential to help users and browsers understand the specificity of a certain portion of text. It’s crucial to understand which can be used in which situation.
 
+```
 * <em> to indicate stress emphasis.
 * <i> to indicate text set off from the normal prose (foreign word, technical term…).
 * <strong> to indicate stronger importance.
@@ -631,8 +632,9 @@ A long list of HTML tags are used to give semantic meaning to specific text. Eac
 * <code> to indicate at short fragment of computer code.
 * <time> to indicate a specific period in time.
 * <address> to indicate contact information (person, people or organization).
+```
 
-Warning!
+<p font-color="red">Warning!</p>
 
 Some tags like <strong> and <b> may look the same visually in your browser. Please remember that HTML is about content, semantics, and not the visual aspect.
 
