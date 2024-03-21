@@ -1,7 +1,1 @@
-/* 6-declaration_file.css */
-
-/* Declaration for h2 element with text "ABOUT" */
-/* freelancer.css */
-h2 {
-  margin-bottom: 8px;
-}
+freelancer.css
