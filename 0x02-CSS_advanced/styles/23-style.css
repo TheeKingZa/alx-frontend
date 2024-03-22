@@ -5,151 +5,124 @@
             - Style the social-link class and its svg children
 */
 
-/* Reset default styles */
+
+/* Set default line height and text size adjustment */
 html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
-  /* Remove default margin */
+  /* Remove default margin for body */
   body {
     margin: 0;
   }
   
-  /* Render main element as block */
+  /* Render the 'main' element as a block */
   main {
     display: block;
   }
   
-  /* Adjust font size and margin for h1 elements */
+  /* Set font size and margin for 'h1' elements within 'section' and 'article' contexts */
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
   }
   
-  /* Adjust styling for hr element */
+  /* Set properties for horizontal rule elements */
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
     overflow: visible; /* 2 */
   }
   
-  /* Adjust font styling for pre elements */
+  /* Set font properties for preformatted text */
   pre {
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
   }
   
-  /* Remove gray background on active links */
+  /* Set properties for anchor links */
   a {
-    background-color: transparent;
+    background-color: transparent; /* Remove gray background on active links in IE 10 */
   }
   
-  /* Adjust styling for abbr elements */
-  abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-  }
-  
-  /* Adjust font weight for b and strong elements */
-  b,
-  strong {
+  /* Set font weight for bold elements */
+  b, strong {
     font-weight: bolder;
   }
   
-  /* Adjust font styling for code, kbd, and samp elements */
-  code,
-  kbd,
-  samp {
+  /* Set font properties for code, keyboard, and sample text */
+  code, kbd, samp {
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
   }
   
-  /* Adjust font size for small elements */
+  /* Set font size for small elements */
   small {
     font-size: 80%;
   }
   
-  /* Adjust styling for sub and sup elements */
-  sub,
-  sup {
+  /* Set font size and position for subscript and superscript elements */
+  sub, sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
   }
   
-  /* Adjust positioning for sub elements */
   sub {
     bottom: -0.25em;
   }
   
-  /* Adjust positioning for sup elements */
   sup {
     top: -0.5em;
   }
   
-  /* Remove border on images inside links */
+  /* Remove border on images inside links in IE 10 */
   img {
     border-style: none;
   }
   
-  /* Adjust font styling for form elements */
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
+  /* Set font properties for form elements */
+  button, input, optgroup, select, textarea {
     font-family: inherit; /* 1 */
     font-size: 100%; /* 1 */
     line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
   }
   
-  /* Show overflow for button and input elements */
-  button,
-  input {
-    overflow: visible;
+  /* Show overflow for buttons and inputs */
+  button, input {
+    overflow: visible; /* Show overflow in IE */
   }
   
-  /* Remove text transform inheritance */
-  button,
-  select {
+  /* Remove text transform inheritance for buttons and select elements */
+  button, select {
     text-transform: none;
   }
   
-  /* Adjust appearance for clickable types */
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
+  /* Set appearance for clickable types in iOS and Safari */
+  button, [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
   }
   
-  /* Remove inner border and padding in Firefox */
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
+  /* Remove inner border and padding for buttons in Firefox */
+  button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
     border-style: none;
     padding: 0;
   }
   
-  /* Restore focus styles unset by previous rule */
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
+  /* Restore focus styles unset by previous rule for buttons */
+  button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText;
   }
   
-  /* Adjust padding for fieldset elements */
+  /* Set padding for fieldset */
   fieldset {
     padding: 0.35em 0.75em 0.625em;
   }
   
-  /* Adjust styling for legend elements */
+  /* Set properties for legend */
   legend {
     box-sizing: border-box; /* 1 */
     color: inherit; /* 2 */
@@ -159,81 +132,76 @@ html {
     white-space: normal; /* 1 */
   }
   
-  /* Adjust vertical alignment for progress elements */
+  /* Set vertical alignment for progress elements */
   progress {
     vertical-align: baseline;
   }
   
-  /* Show overflow for textarea elements */
+  /* Set overflow for textarea */
   textarea {
     overflow: auto;
   }
   
-  /* Adjust box sizing and padding for checkbox and radio elements */
-  [type="checkbox"],
-  [type="radio"] {
+  /* Set box sizing and padding for checkboxes and radio buttons */
+  [type="checkbox"], [type="radio"] {
     box-sizing: border-box; /* 1 */
     padding: 0; /* 2 */
   }
   
-  /* Adjust cursor style for number input buttons */
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
+  /* Correct cursor style for number input buttons */
+  [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
     height: auto;
   }
   
-  /* Adjust appearance and outline style for search input */
+  /* Set appearance for search input */
   [type="search"] {
     -webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
   
-  /* Remove inner padding for search input on macOS */
+  /* Remove inner padding for search input */
   [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
   }
   
-  /* Adjust appearance for file upload button */
+  /* Set appearance for file upload button */
   ::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
   }
   
-  /* Adjust display for details and summary elements */
+  /* Set display for details and summary elements */
   details {
     display: block;
   }
   
-  /* Adjust display for summary element */
   summary {
     display: list-item;
   }
   
-  /* Hide template elements */
+  /* Set display for template and hidden elements */
   template {
     display: none;
   }
   
-  /* Hide hidden elements */
   [hidden] {
     display: none;
   }
   
-  /* Set box-sizing to border-box for all elements */
-  *,
-  *:before,
-  *:after {
+  /* Set box-sizing for all elements */
+  *, *:before, *:after {
     box-sizing: border-box;
   }
   
-  /* Set smooth scroll behavior for html */
+  /* Set scroll behavior and font size for HTML */
   html {
     scroll-behavior: smooth;
-    font-size: 62.5%;
+    font-size: 62.5%; /* Set base font size to 10px */
   }
   
-  /* Define color variables */
+  /* Define CSS variables for colors, fonts, and other properties */
   :root {
+    /* Color variables */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -241,47 +209,45 @@ html {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
   
+    /* Font variables */
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-  
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-  
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
   
+    /* Section variables */
     --section-header-align: center;
     --section-footer-align: center;
-  
     --section-tagline-transform: uppercase;
-  
     --section-title-margin: 0;
     --section-tagline-margin: 0;
     --section-title-color: var(--color-black);
-  
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --footer-padding: 5rem 0 1rem;
   
+    /* Navigation variables */
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04rem;
-    --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-letter-spacing: 0.04
+  rem;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
-/* Apply base styles to body */
+/* Apply default styles to the body */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
@@ -290,34 +256,29 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Apply title font family and weight to headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* Apply specific font family and weight to heading elements */
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 
-/* Adjust color and text decoration for unvisited links */
+/* Apply styles to unvisited links */
 a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* Apply italic style to visited links */
+/* Apply styles to visited links */
 a:visited {
   font-style: italic;
 }
 
-/* Apply underline style on hover for links */
+/* Apply styles to links on hover */
 a:hover {
   text-decoration: underline;
 }
 
-/* Apply background color on active links */
+/* Apply styles to active links */
 a:active {
   background-color: var(--color-light-grey);
 }
@@ -327,7 +288,7 @@ a:active {
   display: none;
 }
 
-/* Apply primary color to category labels */
+/* Apply category color to card elements */
 .card-category {
   color: var(--color-primary);
 }
@@ -337,24 +298,24 @@ a:active {
   padding: var(--section-padding);
 }
 
-/* Apply styling to section headers */
+/* Apply styles to section headers */
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
 }
 
-/* Apply styling to section bodies */
+/* Apply styles to section bodies */
 .section-body {
   padding: var(--section-body-padding);
 }
 
-/* Apply styling to section footers */
+/* Apply styles to section footers */
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
 
-/* Apply styling to section titles */
+/* Apply styles to section titles */
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
@@ -363,7 +324,7 @@ a:active {
   color: var(--section-title-color);
 }
 
-/* Apply styling to section taglines */
+/* Apply styles to section taglines */
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
@@ -372,14 +333,7 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
-/* Apply dark theme styles to elements with data-section-theme="dark" attribute */
-[data-section-theme="dark"] {
-  --text-color: var(--color-white); /* Redefine text color to white */
-  --section-title-color: var(--color-white); /* Redefine section title color to white */
-  background-color: var(--color-black); /* Set background color to black */
-}
-
-/* Set container width and margins */
+/* Set container width and center align */
 .container {
   width: 960px;
   margin-left: auto;
@@ -391,7 +345,7 @@ a:active {
   float: right;
 }
 
-/* Style navigation menu */
+/* Style navigation list */
 .nav {
   margin: 0;
   padding: 0;
@@ -415,37 +369,30 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
-/* Apply hover color to navigation links */
+/* Style navigation links on hover */
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
-/* Clear floats after row */
+/* Create a new row after each instance of the class 'row' */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Remove margin and padding for row list */
-ul.row {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-/* Apply float and padding to column elements */
+/* Set common properties for column classes */
 [class*="col-"] {
-  float: left;
-  padding: 0.5rem;
+  float: left; /* Float columns to the left */
+  padding: 0.5rem; /* Set padding to half of the root element */
 }
 
-/* Define width for column with one-third width */
+/* Set width for 1/3 columns */
 .col-1-3 {
   width: 33.33%;
 }
 
-/* Define width for column with one-half width */
+/* Set width for 1/2 columns */
 .col-1-2 {
   width: 50%;
 }
@@ -455,14 +402,14 @@ ul.row {
   padding: var(--footer-padding);
 }
 
-/* Style copyright text in footer */
+/* Style footer copyright text */
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
 
-/* Align footer list items to the right */
+/* Style footer list */
 .footer ul {
   text-align: right;
 }
