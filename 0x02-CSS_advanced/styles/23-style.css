@@ -1,8 +1,9 @@
 /* 
-    Filename: 23-style.css 
+    Filename: 21-style.css 
     Purpose:
-            - Style the footer-address class
-            - Style the social-link class and its svg children
+            Selects all classes that start with col- 
+            and applies specific styling to them, 
+            while removing common properties for col-1-3 and col-1-2 classes
 */
 
 /* Set default line height and text size adjustment */
@@ -413,25 +414,31 @@ a:active {
   text-align: right;
 }
 
+
 /* 
     Filename: 23-style.css 
     Purpose:
-            - Style the footer-address class
-            - Style the social-link class and its svg children
+            Style the data-section-theme="dark" elements with specific rules
 */
 
+/* Style the data-section-theme="dark" elements */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white); /* Redefine text color to white */
+    --section-title-color: var(--color-white); /* Redefine section title color to white */
+    background: var(--color-black); /* Set background color to black */
+}
+
 /* Style the footer-address class */
-[data-section-theme="dark"] .footer-address {
+.footer-address {
     color: var(--text-color); /* Set the color of the text to the text-color property */
-  }
-  
-  /* Style the social-link class */
-  [data-section-theme="dark"] .social-link {
-    display: block; /* Render as a block element */
-  }
-  
-  /* Style the svg children of the social-link class */
-  [data-section-theme="dark"] .social-link svg {
+}
+
+/* Style the social-link class */
+.social-link {
+    display: block; /* Render it as a block element */
+}
+
+/* Style the social-link class that also selects the svg children */
+.social-link svg {
     fill: var(--text-color); /* Fill in the color of the svg children with the text-color variable */
-  }
-  
+}
