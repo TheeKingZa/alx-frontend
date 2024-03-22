@@ -1,0 +1,14 @@
+/* 
+    Filename: 20-style.css 
+    Purpose:
+            Create a CSS rule to generate a new row 
+            after each instance of the class 'row' with
+            specific properties 
+*/
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
