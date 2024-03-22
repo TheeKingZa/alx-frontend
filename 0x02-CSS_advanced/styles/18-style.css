@@ -3,43 +3,49 @@
    Purpose: Style the navigation menu and its items
 */
 
+/* Universal box-sizing */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /* Define custom properties */
 :root {
-    --nav-item-font-family: var(--font-family-title); /* Define font family for navigation items */
-    --nav-item-font-weight: var(--font-weight-bold); /* Define font weight for navigation items */
-    --nav-item-font-size: var(--font-size-medium); /* Define font size for navigation items */
-    --nav-item-letter-spacing: calc(0.04 * var(--font-size-medium)); /* Define letter spacing for navigation items */
-    --nav-item-display: inline-block; /* Define display property for navigation items */
-    --nav-item-margin: 0 0 calc(3 * var(--font-size-medium)) 0; /* Define margin for navigation items */
-    --nav-item-link-hover: var(--color-primary); /* Define hover color for navigation links */
-  }
-  
-  /* Style the navigation menu */
-  .navbar-menu {
-    float: right; /* Float the navigation menu to the right */
-  }
-  
-  .nav {
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    text-align: center; /* Center align the text within the navigation menu */
-  }
-  
-  .nav-item {
-    font-family: var(--nav-item-font-family); /* Set font family */
-    font-weight: var(--nav-item-font-weight); /* Set font weight */
-    font-size: var(--nav-item-font-size); /* Set font size */
-    letter-spacing: var(--nav-item-letter-spacing); /* Set letter spacing */
-    display: var(--nav-item-display); /* Set display property */
-    margin: var(--nav-item-margin); /* Set margin */
-  }
-  
-  .nav-link {
-    display: block; /* Make navigation links block elements */
-    padding: calc(0.5 * var(--root-font-size)) var(--root-font-size); /* Set padding */
-  }
-  
-  .nav-link:hover {
-    color: var(--nav-item-link-hover); /* Change text color on hover */
-  }
-  
+  --nav-item-font-family: var(--font-family-title); /* Define font family for navigation items */
+  --nav-item-font-weight: var(--font-weight-bold); /* Define font weight for navigation items */
+  --nav-item-font-size: var(--font-size-medium); /* Define font size for navigation items */
+  --nav-item-letter-spacing: calc(0.04 * var(--font-size-medium)); /* Define letter spacing for navigation items */
+  --nav-item-display: inline-block; /* Define display property for navigation items */
+  --nav-item-margin: 0 0 calc(3 * var(--font-size-medium)) 0; /* Define margin for navigation items */
+  --nav-item-link-hover: var(--color-primary); /* Define hover color for navigation links */
+}
+
+/* Style the navigation menu */
+.navbar-menu {
+  float: right; /* Float the navigation menu to the right */
+}
+
+.nav {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  text-align: center; /* Center align the text within the navigation menu */
+}
+
+.nav-item {
+  font-family: var(--nav-item-font-family); /* Set font family */
+  font-weight: var(--nav-item-font-weight); /* Set font weight */
+  font-size: var(--nav-item-font-size); /* Set font size */
+  letter-spacing: var(--nav-item-letter-spacing); /* Set letter spacing */
+  display: var(--nav-item-display); /* Set display property */
+  margin: var(--nav-item-margin); /* Set margin */
+}
+
+.nav-link {
+  display: block; /* Make navigation links block elements */
+  padding: calc(0.5 * var(--root-font-size)) var(--root-font-size); /* Set padding */
+}
+
+.nav-link:hover {
+  color: var(--nav-item-link-hover); /* Change text color on hover */
+}
