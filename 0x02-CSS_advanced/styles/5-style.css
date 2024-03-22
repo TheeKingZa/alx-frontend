@@ -1,4 +1,48 @@
 /* 
+   Filename: 1-style.css
+   Purpose: Apply smooth scrolling behavior to the HTML element
+*/
+
+/* 
+   Set smooth scrolling behavior for the entire HTML document
+   This will make scrolling transitions fluid and animated
+*/
+html {
+    scroll-behavior: smooth;
+  }
+
+/* 
+   Filename: 2-style.css
+   Purpose: Apply specific styles to various elements
+*/
+
+/* Set foreground color for the body */
+body {
+    color: #161616;
+  }
+  
+  /* Set foreground color for all anchor elements */
+  a {
+    color: #161616;
+  }
+  
+  /* Hide elements with class visually-hidden */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Set foreground color for elements with class card-category */
+  .card-category {
+    color: #D73953;
+  }
+  
+  /* Set foreground color for elements with class section-tagline */
+  .section-tagline {
+    color: #D73953;
+  }
+  
+
+/* 
    Filename: 3-style.css
    Purpose: Define custom properties and apply styles to various elements
 */
