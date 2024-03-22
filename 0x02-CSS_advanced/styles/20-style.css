@@ -7,8 +7,8 @@
 */
 
 .row::after {
-    content: "";
-    display: table;
-    clear: both;
+    content: ""; /* No content */
+    display: table; /* Display as a table */
+    clear: both; /* Clear floating elements on both sides */
   }
   
