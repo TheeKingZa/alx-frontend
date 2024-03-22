@@ -1,0 +1,29 @@
+/* 
+    Filename: 24-style.css 
+    Purpose:
+        Target card-title that is inside card-services
+            - Remove margin on all sides
+        Target a that is inside card-services
+            - Render as block level elements
+            - Set padding to 2x the root element
+            - Set background color to the variable color-light-grey
+        Target the hover state of a that is inside card-services
+            - Set foreground color to the variable color-white
+            - Set background color to the variable color-primary
+            - Disable text decoration
+*/
+.card-services .card-title {
+    margin: 0; /* Set margin on all sides to none */
+}
+
+.card-services a {
+    display: block; /* Render as block level elements */
+    padding: 2rem; /* Set padding to 2x the root element */
+    background-color: var(--color-light-grey); /* Set background color to variable color-light-grey */
+}
+
+.card-services a:hover {
+    color: var(--color-white); /* Set foreground color to variable color-white */
+    background-color: var(--color-primary); /* Set background color to variable color-primary */
+    text-decoration: none; /* Disable text decoration */
+}
