@@ -1,0 +1,56 @@
+/* 
+    Filename:
+        19-style.css
+    Purpose: 
+        Define custom styles for various elements including 
+        * section taglines
+        * row lists
+        * columns
+        * footer copyright
+        * footer ul alignment
+*/
+
+
+/* Custom properties */
+:root {
+    --section-tagline-margin: 0; /* Set section tagline margin */
+  }
+  
+  /* Section tagline styles */
+  .section-tagline {
+    margin: var(--section-tagline-margin); /* Set section tagline margin */
+  }
+  
+  /* Row list styles */
+  ul.row {
+    margin: 0; /* Set margins to 0 */
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove default list styles */
+  }
+  
+  /* Column styles for one-third width */
+  .col-1-3 {
+    width: 33.33%; /* Set width to one-third of its parent */
+    float: left; /* Float to the left */
+    padding: 0.6rem; /* Set padding to half of the root element */
+  }
+  
+  /* Column styles for one-half width */
+  .col-1-2 {
+    width: 50%; /* Set width to one-half of its parent */
+    float: left; /* Float to the left */
+    padding: 0.6rem; /* Set padding to half of the root element */
+  }
+  
+  /* Footer copyright styles */
+  .footer-copyright {
+    margin: 0; /* Remove margins */
+    font-size: var(--font-size-small); /* Set font size */
+    color: var(--text-color); /* Set foreground color */
+  }
+  
+  /* Footer ul text alignment */
+  .footer ul {
+    text-align: right; /* Align text to the right */
+  }
+  
