@@ -1,4 +1,57 @@
 /* 
+   Filename: 3-style.css
+   Purpose: Define custom properties and apply styles to various elements
+*/
+
+/* Define custom properties */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black); /* Set text color to color-black */
+  }
+  
+  /* Revisit section-tagline and card-category declarations */
+  .section-tagline,
+  .card-category {
+    color: var(--color-primary); /* Set color to color-primary */
+  }
+  
+  /* Revisit body and anchor declarations */
+  body {
+    color: var(--text-color); /* Set color to text-color */
+  }
+  
+  a {
+    color: var(--text-color); /* Set color to text-color */
+  }
+  
+  
+  /* 
+   Filename: 4-style.css
+   Purpose: Define custom font families and apply them to various elements
+*/
+
+/* Define custom font-family properties */
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Set body's font-family to font-family-base */
+  body {
+    font-family: var(--font-family-base);
+  }
+  
+  /* Set font-family for section headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+  }
+  
+
+/* 
    Filename: 5-style.css
    Purpose: Define custom font sizes and apply them to various elements
 */
@@ -19,4 +72,3 @@
   body {
     font-size: var(--font-size-medium);
   }
-  
