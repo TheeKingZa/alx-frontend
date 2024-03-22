@@ -1,9 +1,10 @@
-/*
+/* 
     Filename: 22-style.css 
     Purpose:
             Style the data-section-theme="dark" elements with specific rules
 */
 
+/* Style the data-section-theme="dark" elements */
 [data-section-theme="dark"] {
     --text-color: var(--color-white); /* Redefine text color to white */
     --section-title-color: var(--color-white); /* Redefine section title color to white */

@@ -1,0 +1,22 @@
+/* 
+    Filename: 23-style.css 
+    Purpose:
+            - Style the footer-address class
+            - Style the social-link class and its svg children
+*/
+
+/* Style the footer-address class */
+[data-section-theme="dark"] .footer-address {
+    color: var(--text-color); /* Set the color of the text to the text-color property */
+  }
+  
+  /* Style the social-link class */
+  [data-section-theme="dark"] .social-link {
+    display: block; /* Render as a block element */
+  }
+  
+  /* Style the svg children of the social-link class */
+  [data-section-theme="dark"] .social-link svg {
+    fill: var(--text-color); /* Fill in the color of the svg children with the text-color variable */
+  }
+  
