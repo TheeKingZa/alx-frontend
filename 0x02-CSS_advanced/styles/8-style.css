@@ -1,0 +1,17 @@
+/* 
+   Filename: 8-style.css
+   Purpose: Define custom line-height properties and apply them to various elements
+*/
+
+/* Define custom line-height properties */
+:root {
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+  }
+  
+  /* Set minimum height of line boxes in the body to line-height-base */
+  body {
+    line-height: var(--line-height-base);
+  }
+  
