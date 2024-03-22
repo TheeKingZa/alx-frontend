@@ -27,3 +27,449 @@
     background-color: var(--color-primary); /* Set background color to variable color-primary */
     text-decoration: none; /* Disable text decoration */
 }
+
+
+/* 
+    Filename: 21-style.css 
+    Purpose:
+            Selects all classes that start with col- 
+            and applies specific styling to them, 
+            while removing common properties for col-1-3 and col-1-2 classes
+*/
+
+/* Set default line height and text size adjustment */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Remove default margin for body */
+  body {
+    margin: 0;
+  }
+  
+  /* Render the 'main' element as a block */
+  main {
+    display: block;
+  }
+  
+  /* Set font size and margin for 'h1' elements within 'section' and 'article' contexts */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Set properties for horizontal rule elements */
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /* Set font properties for preformatted text */
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Set properties for anchor links */
+  a {
+    background-color: transparent; /* Remove gray background on active links in IE 10 */
+  }
+  
+  /* Set font weight for bold elements */
+  b, strong {
+    font-weight: bolder;
+  }
+  
+  /* Set font properties for code, keyboard, and sample text */
+  code, kbd, samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Set font size for small elements */
+  small {
+    font-size: 80%;
+  }
+  
+  /* Set font size and position for subscript and superscript elements */
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Remove border on images inside links in IE 10 */
+  img {
+    border-style: none;
+  }
+  
+  /* Set font properties for form elements */
+  button, input, optgroup, select, textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /* Show overflow for buttons and inputs */
+  button, input {
+    overflow: visible; /* Show overflow in IE */
+  }
+  
+  /* Remove text transform inheritance for buttons and select elements */
+  button, select {
+    text-transform: none;
+  }
+  
+  /* Set appearance for clickable types in iOS and Safari */
+  button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /* Remove inner border and padding for buttons in Firefox */
+  button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /* Restore focus styles unset by previous rule for buttons */
+  button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /* Set padding for fieldset */
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /* Set properties for legend */
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /* Set vertical alignment for progress elements */
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /* Set overflow for textarea */
+  textarea {
+    overflow: auto;
+  }
+  
+  /* Set box sizing and padding for checkboxes and radio buttons */
+  [type="checkbox"], [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /* Correct cursor style for number input buttons */
+  [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /* Set appearance for search input */
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /* Remove inner padding for search input */
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /* Set appearance for file upload button */
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Set display for details and summary elements */
+  details {
+    display: block;
+  }
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Set display for template and hidden elements */
+  template {
+    display: none;
+  }
+  
+  [hidden] {
+    display: none;
+  }
+  
+  /* Set box-sizing for all elements */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Set scroll behavior and font size for HTML */
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* Set base font size to 10px */
+  }
+  
+  /* Define CSS variables for colors, fonts, and other properties */
+  :root {
+    /* Color variables */
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+  
+    /* Font variables */
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+  
+    /* Section variables */
+    --section-header-align: center;
+    --section-footer-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-tagline-margin: 0;
+    --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --footer-padding: 5rem 0 1rem;
+  
+    /* Navigation variables */
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04
+  rem;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 3rem 0;
+  --nav-item-link-hover: var(--color-primary);
+}
+
+/* Apply default styles to the body */
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+}
+
+/* Apply specific font family and weight to heading elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Apply styles to unvisited links */
+a:link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Apply styles to visited links */
+a:visited {
+  font-style: italic;
+}
+
+/* Apply styles to links on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Apply styles to active links */
+a:active {
+  background-color: var(--color-light-grey);
+}
+
+/* Hide elements visually */
+.visually-hidden {
+  display: none;
+}
+
+/* Apply category color to card elements */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Apply padding to sections */
+.section {
+  padding: var(--section-padding);
+}
+
+/* Apply styles to section headers */
+.section-header {
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
+}
+
+/* Apply styles to section bodies */
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+/* Apply styles to section footers */
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Apply styles to section titles */
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+
+/* Apply styles to section taglines */
+.section-tagline {
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
+}
+
+/* Set container width and center align */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Float navbar menu to the right */
+.navbar-menu {
+  float: right;
+}
+
+/* Style navigation list */
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Style navigation items */
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+/* Style navigation links */
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+/* Style navigation links on hover */
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
+/* Create a new row after each instance of the class 'row' */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Set common properties for column classes */
+[class*="col-"] {
+  float: left; /* Float columns to the left */
+  padding: 0.5rem; /* Set padding to half of the root element */
+}
+
+/* Set width for 1/3 columns */
+.col-1-3 {
+  width: 33.33%;
+}
+
+/* Set width for 1/2 columns */
+.col-1-2 {
+  width: 50%;
+}
+
+/* Apply padding to footer */
+.footer {
+  padding: var(--footer-padding);
+}
+
+/* Style footer copyright text */
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+/* Style footer list */
+.footer ul {
+  text-align: right;
+}
+
+
+/* 
+    Filename: 23-style.css 
+    Purpose:
+            Style the data-section-theme="dark" elements with specific rules
+*/
+
+/* Style the data-section-theme="dark" elements */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white); /* Redefine text color to white */
+    --section-title-color: var(--color-white); /* Redefine section title color to white */
+    background: var(--color-black); /* Set background color to black */
+}
+
+/* Style the footer-address class */
+.footer-address {
+    color: var(--text-color); /* Set the color of the text to the text-color property */
+}
+
+/* Style the social-link class */
+.social-link {
+    display: block; /* Render it as a block element */
+}
+
+/* Style the social-link class that also selects the svg children */
+.social-link svg {
+    fill: var(--text-color); /* Fill in the color of the svg children with the text-color variable */
+}
