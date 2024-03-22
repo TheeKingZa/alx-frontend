@@ -3,15 +3,71 @@
    Purpose: Define custom line-height properties and apply them to various elements
 */
 
-/* Define custom line-height properties */
-:root {
-    --line-height-small: 1.2;
-    --line-height-base: 1.5;
-    --line-height-big: 1.8;
+/* Apply smooth scrolling behavior to the HTML element */
+html {
+    scroll-behavior: smooth;
+    /* Set base font size to 62.5% (10px on most browsers) for easier rem unit calculation */
+    font-size: 62.5%;
   }
   
-  /* Set minimum height of line boxes in the body to line-height-base */
+  /* Define custom properties */
+  :root {
+    --color-primary: #d73953; /* Primary color */
+    --color-black: #090909; /* Black color */
+    --color-white: #ffffff; /* White color */
+    --color-light-grey: #f3f3f3; /* Light grey color */
+    --color-dark-grey: #353535; /* Dark grey color */
+    --text-color: var(--color-black); /* Text color (default to black) */
+  
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family with Open Sans as the first choice */
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family with Raleway as the first choice */
+  
+    --font-size-small: 1.2rem; /* Small font size */
+    --font-size-medium: 1.6rem; /* Medium font size */
+    --font-size-large: 1.8rem; /* Large font size */
+    --font-size-x-large: 2.3rem; /* Extra large font size */
+    --font-size-xx-large: 4.8rem; /* Extra extra large font size */
+  
+    --font-weight-regular: 400; /* Regular font weight */
+    --font-weight-bold: 700; /* Bold font weight */
+  
+    --line-height-small: 1.2; /* Small line height */
+    --line-height-base: 1.5; /* Base line height */
+    --line-height-big: 1.8; /* Big line height */
+  }
+  
+  /* Apply styles to the body */
   body {
-    line-height: var(--line-height-base);
+    color: var(--text-color); /* Set text color */
+    font-family: var(--font-family-base); /* Set base font family */
+    font-size: var(--font-size-medium); /* Set base font size */
+    font-weight: var(--font-weight-regular); /* Set base font weight */
+    line-height: var(--line-height-base); /* Set base line height */
+  }
+  
+  /* Apply styles to headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Set title font family */
+    font-weight: var(--font-weight-bold); /* Set bold font weight */
+  }
+  
+  /* Apply styles to anchor elements */
+  a {
+    color: var(--text-color); /* Set text color */
+  }
+  
+  /* Hide elements with class visually-hidden */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Apply styles to elements with class card-category */
+  .card-category {
+    color: var(--color-primary); /* Set color to primary color */
+  }
+  
+  /* Apply styles to elements with class section-tagline */
+  .section-tagline {
+    color: var(--color-primary); /* Set color to primary color */
   }
   
