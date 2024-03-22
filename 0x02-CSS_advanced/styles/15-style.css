@@ -1,8 +1,6 @@
-/* Filename: 14-style.css */
+/* Universal box-sizing rule */
 
-/* Reset CSS using normalize.css */
-/* Version: 8.0.1 */
-/* Author: Nicolas Gallagher and Jonathan Neal */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -12,10 +10,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- * {
-    box-sizing: border-box; /* Applies box-sizing to all elements */
-  }
-  
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -359,6 +353,12 @@
   }
   
   /*# sourceMappingURL=normalize.min.css.map */
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
   
   html {
     scroll-behavior: smooth;
