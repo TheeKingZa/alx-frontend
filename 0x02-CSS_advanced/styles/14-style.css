@@ -1,0 +1,205 @@
+/* Filename: 14-style.css */
+
+/* Reset CSS using normalize.css */
+/* Version: 8.0.1 */
+/* Author: Nicolas Gallagher and Jonathan Neal */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * Remove the list style on navigation lists in all browsers (opinionated).
+   */
+  
+  nav ol,
+  nav ul {
+    list-style: none;
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Scripting
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 9-.
+   */
+  
+  ruby {
+    display: ruby;
+  }
+  
+  /**
+   * Add the correct display in Edge, IE, and Safari.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * Correct the font size and margin on `button` elements in Safari.
+   */
+  
+  button {
+    font-size: 100%;
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   */
+  
+  select {
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button;
+  }
+  
+  /* User interaction
+     ========================================================================== */
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type='search'] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Safari.
+   */
+  
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type='search'] {
+    outline-offset: -2px; /* 1 */
+  }
+  
+  ::-webkit-search-decoration {
+    -webkit-appearance: none; /* 2 */
+  }
+  
+  /* Media
+     ========================================================================== */
+  
+  /**
+   * Remove the default vertical scrollbar in IE.
+   */
+  
+  @media screen and (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  @media screen and (prefers-reduced-motion: no-preference) {
+    html:focus-within {
+      scroll-behavior: smooth;
+    }
+  
+    *,
+    *::before,
+    *::after {
+      animation-duration: unset !important;
+      animation-iteration-count: unset !important;
+      transition-duration: unset !important;
+      scroll-behavior: smooth !important;
+    }
+  }
+  
