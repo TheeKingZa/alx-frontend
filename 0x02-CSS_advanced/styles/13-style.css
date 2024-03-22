@@ -1,0 +1,99 @@
+/* 
+   Filename: 13-style.css
+   Purpose: Define custom properties and apply styles to various elements
+*/
+
+/* Define custom properties */
+:root {
+    --color-primary: #d73953; /* Primary color */
+    --color-black: #090909; /* Black color */
+    --color-white: #ffffff; /* White color */
+    --color-light-grey: #f3f3f3; /* Light grey color */
+    --color-dark-grey: #353535; /* Dark grey color */
+    --text-color: var(--color-black); /* Text color (default to black) */
+  
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family */
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family */
+  
+    --font-size-small: 1.2rem; /* Small font size */
+    --font-size-medium: 1.6rem; /* Medium font size */
+    --font-size-large: 1.8rem; /* Large font size */
+    --font-size-x-large: 2.3rem; /* Extra large font size */
+    --font-size-xx-large: 4.8rem; /* Extra extra large font size */
+  
+    --font-weight-regular: 400; /* Regular font weight */
+    --font-weight-bold: 700; /* Bold font weight */
+  
+    --line-height-small: 1.2; /* Small line height */
+    --line-height-base: 1.5; /* Base line height */
+    --line-height-big: 1.8; /* Big line height */
+  
+    --section-header-align: center; /* Horizontal alignment for section header */
+    --section-tagline-transform: uppercase; /* Text transformation for section tagline */
+  
+    --section-title-margin: 0; /* Margin for section title */
+    --section-title-color: var(--color-black); /* Text color for section title */
+  }
+  
+  /* Apply styles to the body */
+  body {
+    color: var(--text-color); /* Set text color */
+    font-family: var(--font-family-base); /* Set base font family */
+    font-size: var(--font-size-medium); /* Set base font size */
+  }
+  
+  /* Apply styles to headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Set title font family */
+  }
+  
+  /* Apply styles to anchor elements */
+  a[href]:link { /* Target anchor elements with hyperlink */
+    color: var(--text-color); /* Set text color */
+    text-decoration: none; /* Remove text decoration */
+  }
+  
+  a[href]:visited { /* Target visited state for the link */
+    font-style: italic; /* Italicize the text */
+  }
+  
+  a[href]:hover { /* Target hover state for the link */
+    text-decoration: underline; /* Decorate links with underline when hovering */
+  }
+  
+  a[href]:active { /* Target active state for the link */
+    background-color: var(--color-light-grey); /* Set background color */
+  }
+  
+  /* Hide elements with class visually-hidden */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Apply styles to elements with class card-category */
+  .card-category {
+    color: var(--color-primary); /* Set color to primary color */
+  }
+  
+  /* Apply styles to elements with class section-title */
+  .section-title {
+    font-family: var(--font-family-title); /* Set font family */
+    font-size: var(--font-size-xx-large); /* Set font size */
+    font-weight: var(--font-weight-bold); /* Set font weight */
+    margin: var(--section-title-margin); /* Set margin */
+    color: var(--section-title-color); /* Set text color */
+  }
+  
+  /* Apply styles to elements with class section-tagline */
+  .section-tagline {
+    color: var(--color-primary); /* Set color to primary color */
+    font-family: var(--font-family-title); /* Set font family */
+    text-transform: var(--section-tagline-transform); /* Transform text */
+    font-weight: var(--font-weight-bold); /* Set font weight */
+  }
+  
+  /* Apply styles to elements with class section-header */
+  .section-header {
+    text-align: var(--section-header-align); /* Set horizontal alignment */
+  }
+  
