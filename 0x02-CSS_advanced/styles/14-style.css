@@ -12,194 +12,192 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+ /* Global Resets */
+html {
+    line-height: 1.15; /* Ensures better readability (1) */
+    -webkit-text-size-adjust: 100%; /* Ensures consistent font rendering (2) */
   }
   
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
+  /* Sections */
   body {
-    margin: 0;
+    margin: 0; /* Resets margin to remove default browser styles */
   }
-  
-  /**
-   * Render the `main` element consistently in IE.
-   */
   
   main {
-    display: block;
+    display: block; /* Ensures consistent rendering of the main element */
   }
-  
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
   
   h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+    font-size: 2em; /* Adjusts font size for better styling */
+    margin: 0.67em 0; /* Adds margin for spacing */
   }
   
-  /* Grouping content
-     ========================================================================== */
-  
-  /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
-  
+  /* Grouping content */
   hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
+    box-sizing: content-box; /* Corrects box sizing (1) */
+    height: 0; /* Resets height for consistent styling (1) */
+    overflow: visible; /* Displays overflow content (2) */
   }
-  
-  /**
-   * Remove the list style on navigation lists in all browsers (opinionated).
-   */
-  
-  nav ol,
-  nav ul {
-    list-style: none;
-  }
-  
-  /* Text-level semantics
-     ========================================================================== */
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
   
   pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-family: monospace, monospace; /* Sets font family for code blocks (1) */
+    font-size: 1em; /* Adjusts font size for code blocks (2) */
   }
   
-  /* Scripting
-     ========================================================================== */
-  
-  /**
-   * Add the correct display in IE 9-.
-   */
-  
-  ruby {
-    display: ruby;
+  /* Text-level semantics */
+  a {
+    background-color: transparent; /* Removes background color for links */
   }
   
-  /**
-   * Add the correct display in Edge, IE, and Safari.
-   */
+  abbr[title] {
+    border-bottom: none; /* Removes underline for abbreviation (1) */
+    text-decoration: underline; /* Adds underline for abbreviation (2) */
+    text-decoration: underline dotted; /* Adds dotted underline for abbreviation (2) */
+  }
+  
+  b,
+  strong {
+    font-weight: bolder; /* Adjusts font weight for better emphasis */
+  }
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* Sets font family for code snippets (1) */
+    font-size: 1em; /* Adjusts font size for code snippets (2) */
+  }
+  
+  small {
+    font-size: 80%; /* Adjusts font size for smaller text */
+  }
+  
+  sub,
+  sup {
+    font-size: 75%; /* Adjusts font size for subscript/superscript */
+    line-height: 0; /* Removes line height for better alignment */
+    position: relative; /* Sets position relative for proper alignment */
+    vertical-align: baseline; /* Aligns with baseline */
+  }
+  
+  sub {
+    bottom: -0.25em; /* Adjusts positioning for subscript */
+  }
+  
+  sup {
+    top: -0.5em; /* Adjusts positioning for superscript */
+  }
+  
+  /* Embedded content */
+  img {
+    border-style: none; /* Removes border for images */
+  }
+  
+  /* Forms */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* Inherits font family for form elements (1) */
+    font-size: 100%; /* Resets font size to default (1) */
+    line-height: 1.15; /* Resets line height to default (1) */
+    margin: 0; /* Resets margin to default (2) */
+  }
+  
+  button,
+  input {
+    overflow: visible; /* Shows overflow for buttons and inputs (1) */
+  }
+  
+  button,
+  select {
+    text-transform: none; /* Removes text transformation for buttons and select elements (1) */
+  }
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button; /* Ensures consistent appearance for button types (1) */
+  }
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none; /* Removes inner border for Firefox */
+    padding: 0; /* Removes padding for Firefox */
+  }
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText; /* Restores focus styles for Firefox */
+  }
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em; /* Adjusts padding for fieldsets */
+  }
+  
+  legend {
+    box-sizing: border-box; /* Corrects box sizing for legends (1) */
+    color: inherit; /* Inherits color for legends (2) */
+    display: table; /* Displays legend as a table (1) */
+    max-width: 100%; /* Sets maximum width to 100% (1) */
+    padding: 0; /* Resets padding to default (3) */
+    white-space: normal; /* Sets white space to normal (1) */
+  }
+  
+  progress {
+    vertical-align: baseline; /* Adjusts vertical alignment for progress elements */
+  }
+  
+  textarea {
+    overflow: auto; /* Shows overflow for textareas */
+  }
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* Corrects box sizing for checkboxes and radio buttons (1) */
+    padding: 0; /* Resets padding to default (2) */
+  }
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto; /* Adjusts height for number input spin buttons */
+  }
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* Ensures consistent appearance for search inputs (1) */
+    outline-offset: -2px; /* Adjusts outline offset for search inputs (2) */
+  }
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; /* Removes search decoration */
+  }
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* Ensures consistent appearance for file upload buttons (1) */
+    font: inherit; /* Inherits font properties for file upload buttons (2) */
+  }
+  
+  /* Interactive */
+  details {
+    display: block; /* Adjusts display for details element */
+  }
   
   summary {
-    display: list-item;
+    display: list-item; /* Adjusts display for summary element */
   }
   
-  /* Forms
-     ========================================================================== */
-  
-  /**
-   * Correct the font size and margin on `button` elements in Safari.
-   */
-  
-  button {
-    font-size: 100%;
-    margin: 0; /* 2 */
+  /* Misc */
+  template {
+    display: none; /* Hides template elements */
   }
   
-  /**
-   * Show the overflow in IE.
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   */
-  
-  select {
-    text-transform: none;
+  [hidden] {
+    display: none; /* Hides elements with the hidden attribute */
   }
   
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-  
-  [type='button'],
-  [type='reset'],
-  [type='submit'] {
-    -webkit-appearance: button;
-  }
-  
-  /* User interaction
-     ========================================================================== */
-  
-  /**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-  
-  [type='search'] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
-  
-  /**
-   * Correct the cursor style of increment and decrement buttons in Safari.
-   */
-  
-  ::-webkit-inner-spin-button,
-  ::-webkit-outer-spin-button {
-    height: auto;
-  }
-  
-  /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-  
-  [type='search'] {
-    outline-offset: -2px; /* 1 */
-  }
-  
-  ::-webkit-search-decoration {
-    -webkit-appearance: none; /* 2 */
-  }
-  
-  /* Media
-     ========================================================================== */
-  
-  /**
-   * Remove the default vertical scrollbar in IE.
-   */
-  
-  @media screen and (prefers-reduced-motion: reduce) {
-    html:focus-within {
-      scroll-behavior: auto;
-    }
-  
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-    }
-  }
-  
-  @media screen and (prefers-reduced-motion: no-preference) {
-    html:focus-within {
-      scroll-behavior: smooth;
-    }
-  
-    *,
-    *::before,
-    *::after {
-      animation-duration: unset !important;
-      animation-iteration-count: unset !important;
-      transition-duration: unset !important;
-      scroll-behavior: smooth !important;
-    }
-  }
   
