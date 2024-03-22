@@ -1,0 +1,24 @@
+/* 
+   Filename: 7-style.css
+   Purpose: Define custom font families and apply them to various elements
+*/
+
+/* Define custom font families */
+:root {
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family with Open Sans as the first choice */
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family with Raleway as the first choice */
+    
+    /* Previous fonts shifted down accordingly */
+    --font-family-base-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: var(--font-family-base); /* Set base font family */
+}
+
+/* Apply styles to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Set title font family */
+}
