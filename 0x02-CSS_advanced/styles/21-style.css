@@ -19,3 +19,17 @@
     padding: 0; /* Remove padding */
   }
   
+  /* 
+    Filename: 20-style.css 
+    Purpose:
+            Create a CSS rule to generate a new row 
+            after each instance of the class 'row' with
+            specific properties 
+*/
+
+.row::after {
+    content: ""; /* No content */
+    display: table; /* Display as a table */
+    clear: both; /* Clear floating elements on both sides */
+  }
+  
